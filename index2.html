@@ -9,26 +9,26 @@
       <div id="m-header">
         <img src="src/FoodAlarm_logo.png" id="logo">
         <div id="crt">
-          <a href="">Create your alarm</a>
+          <a href="index.html">Back to main</a>
         </div>
       </div>
       <div>
-        <a href="">My alarms</a>
+        <a href="index.html">My alarms</a>
       </div>
     </header>
     <main>
-      <div id="png">
-        <div id="main-txt">
-          <p></p>
-        </div>
-        <div id="pin">
-          <img style="width:75%" src="">
-        </div>
-        <div id="breakfast">
-          <img src="">
-        </div>
+      <h1>My Alarms</h1>
+      
+      <div class="alarm-form">
+        <h2>Create New Alarm</h2>
+        <input type="time" id="alarm-time" required>
+        <input type="text" id="alarm-message" placeholder="Breakfast reminder" required>
+        <button id="add-alarm">Add Alarm</button>
+      </div>
+      
+      <div class="alarm-list" id="alarm-list">
       </div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
-
