@@ -5,11 +5,14 @@
     <title>FoodAlarm</title>
   </head>
   <body>
+    <div class="shadow">
+
+    </div>
     <header>
       <div id="m-header">
         <img src="src/FoodAlarm_logo.png" id="logo">
         <div id="crt">
-          <a href="index.html">Back to main</a>
+          <a href="">Create your Alarm</a>
         </div>
       </div>
       <div>
@@ -21,9 +24,12 @@
       
       <div class="alarm-form">
         <h2>Create New Alarm</h2>
-        <input type="time" id="alarm-time" required>
-        <input type="text" id="alarm-message" placeholder="Breakfast reminder" required>
-        <button id="add-alarm">Add Alarm</button>
+        <div class="form">
+          <textarea id="alarm-message" required>Название будильника</textarea>
+          <input type="time" id="alarm-time" required>
+        </div>
+        <img src="src\Hot_Sandwiches.jpg" alt="">
+        <button id="add-alarm"><b>Сохранить</b></button>
       </div>
       
       <div class="alarm-list" id="alarm-list">
