@@ -10,9 +10,8 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); 
-    display: none;  
+    display: block;  
 }    
-
 
 header {
     display: flex;
@@ -31,7 +30,7 @@ header {
     width: 15%;
 }
 
-.crt {
+#crt {
     font-size: 1.35em;
     width: 28.61%;
     border-radius: 7px;
@@ -114,7 +113,7 @@ a {
     top: 202px;
     left: 824px;
     border-radius: 10px;
-    display: none;
+    display: block;
 }
 .alarm-form h2 {
     margin-left: 10px;
